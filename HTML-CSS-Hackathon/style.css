@@ -1,0 +1,26 @@
+html, body {height: 100%}
+body {background-image:linear-gradient(#f8f9fa, #004050)}
+footer {
+    background-color: #0f4b5a;
+    color: #f8f9fa;
+    font-weight: 300;
+    border-top-style:inset;
+    border-top-width: 2px;
+    border-top-color: #eeeeee;
+}
+.navbar {
+    font-weight: 400;
+}
+.nav-link.active {
+    font-weight: bold;
+    color: #0f4b5a !important;
+}
+
+.nav-link {
+    transition:color .35s ease-in-out,background-color .35s ease-in-out,border-color .35s1 ease-in-out !important;
+}
+
+.nav-link:hover {
+    color: #0f4b5a !important;
+
+}

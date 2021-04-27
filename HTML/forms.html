@@ -1,0 +1,35 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <form action="/HTML/Introduction/welcome.html">
+        <h1> Sign Up </h1>
+        <fieldset>
+            <legend> Your Basic Info</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" placeholder="Enter your name" style="margin-left:1.75em">
+            <br/>
+            <label for="email">Email:</label>
+            <input type="email" id="mail" name="user_email" placeholder="Enter your email" style="margin-left:1.75em">
+            <br/>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="user_password" placeholder="Enter your password">
+            <br/>
+            <br/>
+            <textarea name="UsrAddr" rows="5" cols="28" style="text-align: left;">Enter something here</textarea>
+            <br/>
+            <label>Gender:</label>
+            <br/>
+            <input type="radio" id="m_gender" value="m_gender" name="gender"><label for="m_gender">Male</label>
+            <input type="radio" id="f_gender" value="f_gender" name="gender"><label for="f_gender">Female</label>
+        </fieldset>
+        <button type="submit">Sign Up</button>
+        <button type="reset">Reset</button>
+        <button type="button">Do Nothing</button>
+    </form>
+</body>
+</html>
